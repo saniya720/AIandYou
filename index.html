@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Models | DeepMind Inspired</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for GitHub and LinkedIn Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="AlandME Logo" class="logo-img" />
+        <div class="logo-text">
+          AlandMe
+          <small>AI-Based Education Platform</small>
+        </div>
+      </div>
+
+      <ul class="nav-nav">
+        <li class="nav-item">
+          <a href="#" class="neet" id="neet-hover-link">NEET</a>
+        </li>
+        <li>
+          <a
+            href="#"
+            class="nav-link disabled"
+            tabindex="-1"
+            aria-disabled="true"
+            >JEE</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            class="nav-link disabled"
+            tabindex="-1"
+            aria-disabled="true"
+            >CA</a
+          >
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#" class="nav-btn">Day in the life</a>
+        <a href="#" class="nav-btn">Try</a>
+        <a href="#" class="nav-btn">Sign in</a>
+        <a href="about.html" target="_blank" class="nav-btn">About</a>
+        <button class="search-btn" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </nav>
+
+    <div id="neet-preview" class="neet-mega-menu">
+      <div class="mega-menu-content">
+        <!-- Left Column - Main CTA -->
+        <div class="mega-menu-left">
+          <h2>Build with our next generation AI systems</h2>
+          <button class="explore-btn">Explore NEET ></button>
+        </div>
+
+        <!-- Middle Columns - NEET Categories -->
+        <div class="mega-menu-center">
+          <div class="mega-menu-section">
+            <h3>NEET Biology</h3>
+            <p class="section-subtitle">Comprehensive biology preparation</p>
+            <ul class="model-list">
+              <li><span class="icon">✪</span>Human Physiology</li>
+              <li><span class="icon">✪</span>Plant Biology</li>
+              <li><span class="icon">✪</span>Ecology & Environment</li>
+            </ul>
+            <a href="#" class="learn-more">Learn more</a>
+          </div>
+
+          <div class="mega-menu-section">
+            <h3>NEET Physics</h3>
+            <p class="section-subtitle">Advanced physics concepts</p>
+            <ul class="model-list">
+              <li><span class="icon">◉</span>Mechanics</li>
+              <li><span class="icon">◉</span>Electromagnetism</li>
+              <li><span class="icon">◉</span>Modern Physics</li>
+            </ul>
+            <a href="#" class="learn-more">Learn more</a>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="mega-menu-right">
+          <div class="mega-menu-section">
+            <h3>NEET Chemistry</h3>
+            <p class="section-subtitle">Organic & inorganic chemistry</p>
+            <ul class="model-list">
+              <li><span class="icon">🖼</span>Organic Chemistry</li>
+              <li><span class="icon">🎵</span>Inorganic Chemistry</li>
+              <li><span class="icon">▶️</span>Physical Chemistry</li>
+            </ul>
+            <a href="#" class="learn-more">Learn more</a>
+          </div>
+
+          <div class="mega-menu-section">
+            <h3>Practice Tests</h3>
+            <p class="section-subtitle">AI-powered assessment tools</p>
+            <ul class="model-list">
+              <li><span class="icon">🌐</span>Mock Tests</li>
+              <li><span class="icon">📏</span>Chapter Tests</li>
+              <li><span class="icon">🔹</span>Previous Papers</li>
+            </ul>
+            <a href="#" class="learn-more">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero">
+      <h1>
+        Students don’t just learn.<br />They remember <br />
+        Teachers just don’t teach.<br />They engage. <br />
+      </h1>
+    </header>
+    <br />
+    <br />
+    <br /><br />
+
+    <main>
+      <section class="statement">
+        <p>
+          No more rote learning – get precise, concept-based responses. <br />
+          Real-life examples tailored to your prompt. <br />
+          AI-powered tests based on student competency. <br />
+          Assess student proficiency across subjects. <br />
+          AI that learns your strengths and spots learning gaps with
+          personalized recommendations.
+        </p>
+      </section>
+      <nav id="navbar" style="display: none">
+        <ul class="nav-links">
+          <li><a href="#students">Students</a></li>
+          <li><a href="#teachers">Teachers</a></li>
+          <li><a href="#school">School</a></li>
+          <li><a href="#price">Pricing</a></li>
+        </ul>
+      </nav>
+      <!-- Section Sticky Navbar -->
+      <nav class="section-navbar-sticky" style="display: none">
+        <ul class="section-navbar-list">
+          <li><a href="#students">Student</a></li>
+          <li><a href="#teachers">Teacher</a></li>
+          <li><a href="#school">School</a></li>
+          <li><a href="#price">Pricing</a></li>
+        </ul>
+      </nav>
+      <section id="students" class="section">
+        <div class="section-content">
+          <div class="cards">
+            <div class="card" data-video="NxvS-Uzjueg">Deep Understanding</div>
+            <div class="card" data-video="NxvS-Uzjueg">Real-life Examples</div>
+            <div class="card" data-video="NxvS-Uzjueg">Performance</div>
+          </div>
+          <div class="video-display" id="students-video-display">
+            <!-- Video or visual effect will appear here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="teachers" class="section">
+        <div class="section-content">
+          <div class="cards">
+            <div class="card" data-video="NxvS-Uzjueg">AI Powered Tests</div>
+            <div class="card" data-video="NxvS-Uzjueg">
+              Personalize Recommendations
+            </div>
+          </div>
+          <div class="video-display" id="teachers-video-display">
+            <!-- Video or visual effect will appear here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="school" class="section">
+        <div class="section-content">
+          <div class="cards">
+            <div class="card" data-video="NxvS-Uzjueg">AI for Biology</div>
+            <div class="card" data-video="NxvS-Uzjueg">AI for Climate</div>
+            <div class="card" data-video="NxvS-Uzjueg">AI for Mathematics</div>
+            <div class="card" data-video="NxvS-Uzjueg">AI for Physics</div>
+          </div>
+          <div class="video-display" id="school-video-display">
+            <!-- Video or visual effect will appear here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="price" class="section">
+        <section id="benchmark-pricing">
+          <p style="text-align: center">
+            In addition to its strong performance on academic benchmarks, Gemini
+            2.5 tops the popular coding leaderboard WebDev Arena.
+          </p>
+          <table class="benchmark-table">
+            <thead>
+              <tr>
+                <th>Benchmark</th>
+                <th>
+                  Gemini 2.5 Flash-Lite<br /><small
+                    >Preview 06-17<br />Non-thinking</small
+                  >
+                </th>
+                <th>
+                  Gemini 2.5 Flash-Lite<br /><small
+                    >Preview 06-17<br />Thinking</small
+                  >
+                </th>
+                <th>Gemini 2.5 Flash<br /><small>Non-thinking</small></th>
+                <th>Gemini 2.5 Flash<br /><small>Thinking</small></th>
+                <th>Gemini 2.5 Pro<br /><small>Thinking</small></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Input price</strong><br /><small
+                    >$/1M tokens (no caching)</small
+                  >
+                </td>
+                <td>$0.10</td>
+                <td>$0.10</td>
+                <td>$0.30</td>
+                <td>$0.30</td>
+                <td>$1.25<br /><small>($2.50 > 200k tokens)</small></td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Output price</strong><br /><small>$/1M tokens</small>
+                </td>
+                <td>$0.40</td>
+                <td>$0.40</td>
+                <td>$2.50</td>
+                <td>$2.50</td>
+                <td>$10.00<br /><small>($15.00 > 200k tokens)</small></td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Humanity’s Last Exam</strong><br /><small
+                    >(Reasoning & knowledge)</small
+                  >
+                </td>
+                <td>5.1%</td>
+                <td>6.9%</td>
+                <td>8.4%</td>
+                <td>11.0%</td>
+                <td>21.6%</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>GPQA diamond</strong><br /><small>(Science)</small>
+                </td>
+                <td>64.6%</td>
+                <td>66.7%</td>
+                <td>78.3%</td>
+                <td>82.8%</td>
+                <td>86.4%</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>AIME 2025</strong><br /><small>(Mathematics)</small>
+                </td>
+                <td>49.8%</td>
+                <td>63.1%</td>
+                <td>61.6%</td>
+                <td>72.0%</td>
+                <td>88.0%</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>LiveCodeBench</strong><br /><small
+                    >(Code generation)<br />(UI: 1/1/2025–5/1/2025)</small
+                  >
+                </td>
+                <td>33.7%</td>
+                <td>34.3%</td>
+                <td>41.1%</td>
+                <td>55.4%</td>
+                <td>69.0%</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Aider Polyglot</strong><br /><small
+                    >(Code editing)</small
+                  >
+                </td>
+                <td>26.7%</td>
+                <td>27.1%</td>
+                <td>44.0%</td>
+                <td>56.7%</td>
+                <td>82.2%</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+
+    <section class="newsletter-signup">
+      <h2 class="newsletter-title">Get the latest updates</h2>
+      <p class="newsletter-desc">
+        Sign up for news on the latest innovations from Google DeepMind.
+      </p>
+      <form class="newsletter-form">
+        <div class="newsletter-input-box">
+          <span class="email-icon">📧</span>
+          <input
+            type="email"
+            placeholder="Email address"
+            class="newsletter-email"
+            required
+          />
+        </div>
+        <button type="submit" class="newsletter-button">Sign up</button>
+      </form>
+      <p class="newsletter-note">
+        I accept Google's Terms and Conditions and acknowledge that my
+        information will be used in accordance with
+        <a href="https://policies.google.com/privacy" target="_blank"
+          >Google's Privacy Policy</a
+        >.
+      </p>
+    </section>
+
+    <footer
+      style="
+        background-color: #0d0d0d;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        padding: 3rem 2rem;
+        font-size: 15px;
+      "
+    >
+      <div
+        style="
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 2rem;
+          max-width: 1200px;
+          margin: auto;
+        "
+      >
+        <!-- Left Section -->
+        <div>
+          <h2 style="font-size: 1.8rem; margin-bottom: 1rem">
+            Build AI responsibly to<br />benefit humanity
+          </h2>
+          <div style="margin: 1rem 0">
+            <strong>Follow us</strong>
+            <div style="margin-top: 0.5rem; display: flex; gap: 1rem">
+              <a
+                href="https://github.com/saniya720"
+                target="_blank"
+                aria-label="GitHub"
+                style="color: white; font-size: 20px"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/saniya-ahmad/"
+                target="_blank"
+                aria-label="LinkedIn"
+                style="color: white; font-size: 20px"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="#"
+                aria-label="Twitter"
+                style="color: white; font-size: 20px"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/yourhandle"
+                target="_blank"
+                aria-label="Instagram"
+                style="color: white; font-size: 20px"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/yourchannel"
+                target="_blank"
+                aria-label="YouTube"
+                style="color: white; font-size: 20px"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Learn More Section -->
+        <div>
+          <h3 style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem">
+            Learn more
+          </h3>
+          <ul style="list-style: none; padding: 0; line-height: 2">
+            <li>
+              <a href="about.html" style="color: white; text-decoration: none"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#" style="color: white; text-decoration: none">News</a>
+            </li>
+            <li>
+              <a href="#" style="color: white; text-decoration: none"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a href="#" style="color: white; text-decoration: none"
+                >Research</a
+              >
+            </li>
+            <li>
+              <a href="#" style="color: white; text-decoration: none"
+                >Responsibility & Safety</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Updates & Policy -->
+        <div>
+          <p style="margin-bottom: 1rem">
+            Sign up for updates on our latest innovations
+          </p>
+          <input
+            type="email"
+            placeholder="Your email"
+            style="
+              padding: 0.6rem 1rem;
+              width: 100%;
+              max-width: 300px;
+              border-radius: 25px;
+              border: none;
+              outline: none;
+              background: #1a1a1a;
+              color: white;
+              margin-bottom: 1rem;
+            "
+          />
+          <p style="font-size: 12px; color: #aaa">
+            I accept Google's Terms and Conditions and acknowledge that my
+            information will be used in accordance with
+            <a href="#" style="color: #59f; text-decoration: underline"
+              >Google's Privacy Policy</a
+            >.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div
+        style="
+          border-top: 1px solid #333;
+          margin-top: 3rem;
+          padding-top: 1rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 1200px;
+          margin-inline: auto;
+        "
+      >
+        <div style="font-weight: bold; font-size: 1rem">AIandMe</div>
+        <div
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+          "
+        >
+          <a href="about.html" style="color: white; text-decoration: none"
+            >About AIandMe</a
+          >
+          <a href="#" style="color: white; text-decoration: none">Products</a>
+          <a href="#" style="color: white; text-decoration: none">Privacy</a>
+          <a href="#" style="color: white; text-decoration: none">Terms</a>
+        </div>
+      </div>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
