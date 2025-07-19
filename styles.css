@@ -132,7 +132,6 @@ body {
   font-weight: 200;
   font-size: 1rem;
   font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .nav-btn {
@@ -428,7 +427,7 @@ body {
 .neet-mega-menu {
   display: none;
   position: fixed;
-  top: 80px;
+  top: 90px;
   left: 0;
   width: 100vw;
   background-color: #070707;
@@ -438,7 +437,6 @@ body {
   border-bottom: 2px solid #7caaed;
   animation: fadeIn 0.2s;
 }
-
 
 .navbar {
   position: relative;
